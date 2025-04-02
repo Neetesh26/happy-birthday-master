@@ -125,10 +125,14 @@ body {
 }
 
 .six .hat {
-  position: absolute;
+  /* position: absolute;
   width: 80px;
   top: -35px;
-  left: 41.5%;
+  left: 41.5%; */
+  position: absolute;
+    width: 80px;
+    top: 3px;
+    left: 48%;
   /* transform: scale(0.1); */
 }
 
@@ -237,19 +241,28 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 390px;
+    top: 30px;
+    width: 60px;
   }
 }
 
 @media screen and (max-height: 800px) {
+  .lydia-dp{
+  height: 300px;
+}
   .six .hat {
-    left: 37%;
+    left: 49%;
+    /* background-color: #7dd175; */
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 290px;
+    top: 32px;
+    width: 60px;
+    /* background-color: #347a9d; */
   }
 }
 
